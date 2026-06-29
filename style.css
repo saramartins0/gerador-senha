@@ -11,5 +11,31 @@
 }
 
 *{
-    
+    font-weight: 400;
+}
+
+body{
+   color:var(--branco)
+   background-color: var(--cor-de-fundo);
+   font-family: var(--roboto);
+}
+
+.titulo-principal{
+    font-family: var(--roboto-mono);
+    font-size: 32px;
+}
+
+.titulo-secundario{
+    font-size: 24px;
+}
+
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.conteudo-senha{
+    margin-top: 80px;
+    background: var(--fundo-senha);
+    padding: 24px;
 }
