@@ -70,3 +70,35 @@ body{
     font-family: var(--roboto-mono);
     font-size: 28px;
 }
+
+.parametro-senha__titulo{
+font-size: 24px;
+}
+
+.parametro-senha{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.parametro-senha{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.parametro-senha__botao{
+    display: flex;
+    justify-content: center;
+}
+
+.parametro-senha__botao{
+
+}
+.parametro-senha__texto{
+
+}
+
+@media screen and (min-width: 768px){
+    .parametro-coluna__senha{
+        flex-direction: row;
+    }
+}
